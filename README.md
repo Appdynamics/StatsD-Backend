@@ -28,6 +28,7 @@ Edit envvars.controller1.sh to align to an AppDynamcis Controller and Account
 ./docker-ctl bash
 
 # Review logs in logs dir
+tail -f logs/statsd.log
 
 # Stop the container
 exit
