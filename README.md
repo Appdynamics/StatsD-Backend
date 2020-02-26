@@ -18,6 +18,7 @@ Edit envvars.controller1.sh to align to an AppDynamcis Controller and Account
 
 # Build the container
 . envvars.sh
+
 ./docker-ctl.sh build
 
 # Run the container
