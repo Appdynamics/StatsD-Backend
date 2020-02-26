@@ -29,3 +29,9 @@ Edit envvars.controller1.sh to align to an AppDynamcis Controller and Account
 
 # Review logs in logs dir
 
+# Stop the container
+exit
+
+./docker-ctl stop
+
+
