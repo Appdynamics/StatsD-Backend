@@ -9,7 +9,7 @@ git clone https://github.com/statsd/statsd.git
 
 # Download AppDynamics Machine Agent
 
-machineagent-bundle-64bit-linux-4.5.18.2430.zip
+Download machineagent-bundle-64bit-linux-4.5.18.2430.zip in the directory Agents
 
 From https://download.appdynamics.com/
 
