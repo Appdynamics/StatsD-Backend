@@ -30,8 +30,11 @@ Sample metrics will be pushed to statsd using test1.py. The AppDynamics Backend 
 # Bash into the container
 ./docker-ctl bash
 
-# Review logs in logs dir
+# Review logs
 tail -f logs/statsd.log
+
+# Validate metrics in AppDynamics Contoller
+Find the server appdstatsd1_doc in the Servers view to make sure the machine agent is working. In the Metics Browser look for metrics under: "Application Infrastructure Perforamnce | Root | Individual Nodes | appdstatsd1_doc"
 
 # Stop the container
 exit
