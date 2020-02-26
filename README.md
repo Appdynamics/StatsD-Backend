@@ -24,6 +24,9 @@ Edit envvars.controller1.sh to align to an AppDynamcis Controller and Account
 # Run the container
 ./docker-ctl run
 
+This will start the Machine Agent, the StatsD daemon with the AppDynamics Backend, and the sample metrics load generator test1.py
+Sample metrics will be pushed to statsd using test1.py. The AppDynamics Backend will push the metrics to the Machine Agent
+
 # Bash into the container
 ./docker-ctl bash
 
