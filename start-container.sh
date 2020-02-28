@@ -13,7 +13,7 @@ HTTP_LISTENER_OPTS=" -Dmetric.http.listener=true -Dmetric.http.listener.port=808
 export APPD_MACHINE_AGENT_DIR="$HOME/Agents/macagent"
 mkdir -p $APPD_MACHINE_AGENT_DIR
 unzip -no $HOME/Agents/$APPDYNAMICS_MACHINE_AGENT_ZIP_FILE -d Agents/macagent
-nohup ./$APPD_MACHINE_AGENT_DIR/bin/machine-agent $HTTP_LISTENER_OPTS  2>&1  > $APPD_LOGS_DIR/macagent.log &
+nohup $APPD_MACHINE_AGENT_DIR/bin/machine-agent $HTTP_LISTENER_OPTS  2>&1  > $APPD_LOGS_DIR/macagent.log &
 
 # Install AppD-StatsD-Backend into statsd package
 npm install . --verbose --prefix statsd/ 2>&1  > $APPD_LOGS_DIR/npminstall.log
