@@ -1,7 +1,7 @@
 # AppD-StatsD-Backend
 StatsD Backend to push metrics to AppDynamics
 
-For easy of testing a Dockerfile is incuded that builds a container with StatsD, AppDynamics StatsD Backend, the AppDynamics Machine Agent and load metric generator. Alterantivelty the AppDynamics StatsD Backend can be installed into an existing StatsD deployment.
+For easy of testing a Dockerfile is incuded that builds a container with StatsD, AppDynamics StatsD Backend, the AppDynamics Machine Agent and a load generator. Alterantivelty the AppDynamics StatsD Backend can be installed into an existing StatsD deployment.
 
 # Clone this repository
 git clone https://github.com/APPDRYDER/AppD-StatsD-Backend.git
