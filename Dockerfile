@@ -2,7 +2,6 @@
 FROM ubuntu
 
 ENV DEBIAN_FRONTEND=noninteractive
-ENV AIRFLOW_HOME="/"
 ENV USER="ddr"
 ENV HOME_DIR="/home/"$USER
 ENV TERM=linux
